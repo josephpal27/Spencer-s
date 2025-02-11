@@ -375,4 +375,10 @@ form button{
         font-size: calc(0.9rem + 0.5vw);
     }
 }
+
+@media screen and (min-width: 1400px) {
+    .rewards-journey-btns button{
+        width: 20rem;
+    }
+}
 /* Rewards Journey End */
