@@ -382,3 +382,140 @@ form button{
     }
 }
 /* Rewards Journey End */
+
+
+/* ------- Available Rewards Page Styles ------- */
+/* Available Rewards Start */
+.available-rewards {
+    font-family: "Poppins", serif;
+}
+.available-rewards h1{
+    text-align: center;
+    margin: 0;
+    font-size: calc(0.8rem + 1vw);
+    margin-top: 0.5rem;
+    font-weight: 550;
+}
+.available-rewards p{
+    text-align: center;
+    margin: 0;
+    margin-top: 0.3rem;
+    font-size: calc(0.55rem + 1vw);
+}
+.available-rewards .gift-card-box{
+    width: 30%;
+    margin: 1.5rem auto;
+}
+.available-rewards .gift-card-box img{
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+.available-rewards .gift-card-box h2{
+    margin: 0;
+    font-size: calc(0.5rem + 1vw);
+    font-weight: 550;
+    letter-spacing: 1px;
+    margin-bottom: 0.9rem;
+}
+.available-rewards .reward-card{
+    display: flex;
+    width: 38%;
+    background-color: #d4d4d4;
+    margin: 2.5rem auto;
+    border-radius: 20px;
+}
+.available-rewards .reward-card .card-img{
+    width: 25%;
+}
+.available-rewards .reward-card .card-img img{
+    width: 100%;
+    scale: 1.1;
+}
+.available-rewards .reward-card .card-desc{
+    width: 71%;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+.available-rewards .reward-card h4{
+    font-size: calc(0.35rem + 1vw);
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 2px;
+    text-align: start;
+}
+.available-rewards .reward-card p{
+    font-weight: 400;
+    font-size: calc(0.1rem + 1vw);
+    margin: 0;
+    margin-top: 0.3rem;
+    text-align: start;
+}
+.available-rewards .redeem-btn{
+    display: flex;
+    justify-content: center;
+}
+.available-rewards button{
+    width: 17rem;
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: "Poppins", serif;
+    background-color: #feaf6a;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+.available-rewards button:hover{
+    background-color: #ffa556;
+}
+
+@media screen and (max-width: 768px) {
+    .available-rewards {
+        padding: 0 1rem;
+    }
+    .available-rewards h1{
+        font-size: calc(1.2rem + 1vw);
+        margin-top: 1rem;
+    }
+    .available-rewards p{
+        font-size: calc(0.9rem + 1vw);
+        font-weight: 400;
+    }
+    .available-rewards .gift-card-box{
+        width: 85%;
+    }
+    .available-rewards .gift-card-box h2{
+        font-size: calc(0.99rem + 1vw);
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .available-rewards .reward-card{
+        width: 90%;
+        margin: 2rem auto;
+        border-radius: 12px;
+    }
+    .available-rewards .reward-card .card-img img{
+        scale: 1.25;
+    }
+    .available-rewards .reward-card .card-desc{
+        padding: 0.5rem 0.5rem 0.5rem 1.3rem;
+    }
+    .available-rewards .reward-card h4{
+        font-size: calc(0.8rem + 1vw);
+    }
+    .available-rewards .reward-card p{
+        font-size: calc(0.5rem + 1vw);
+        margin-top: 0.2rem;
+        line-height: 1.1;
+    }
+    .available-rewards button{
+        width: 80vw;
+        margin-top: 0.5rem;
+        margin-bottom: 1.4rem;
+        padding: 0.7rem 1.2rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+}
+/* Available Rewards End */
