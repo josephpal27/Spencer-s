@@ -76,9 +76,12 @@ form input{
 form input::placeholder{
     color: #c7c6c6;
 }
-form input[type='number']::-webkit-inner-spin-button{
+form input[type="number"]::-webkit-inner-spin-button{
     -webkit-appearance: none;
-  }
+}
+form input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
 form label{
     color: #d4d4d4;
     font-weight: 500;
