@@ -251,3 +251,128 @@ form button{
     }
 }
 /* Welcome Text End */
+
+
+/* ------- Rewards Journey Page Styles ------- */
+/* Rewards Journey Start */
+.rewards-journey h2{
+    margin: 0;
+    font-size: calc(0.8rem + 1vw);
+    margin-top: 0.5rem;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 550;
+}
+.rewards-journey h3{
+    margin: 0;
+    margin-top: 0.3rem;
+    font-size: calc(0.55rem + 1vw);
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+.spent-go-row{
+    display: flex;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid #000;
+}
+.spent-go-row p{
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+.spent-go-row .spent{
+    width: 42%;
+    background-color: #000;
+    color: #fff;
+    padding: 0.2rem 0 0.3rem 1rem;
+}
+.spent-go-row .go{
+    width: 58%;
+    color: #000;
+    background-color: #fdb06b;
+    padding: 0.2rem 1rem 0.3rem 0;
+    text-align: end;
+}
+.rewards-journey h1{
+    margin: 0;
+    font-size: calc(1.5rem + 1vw);
+    margin-top: 2rem;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.rewards-journey .coins{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.rewards-journey-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.rewards-journey-btns button{
+    width: 17rem;
+    margin-bottom: 1.4rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: "Poppins", serif;
+    background-color: #feaf6a;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+.rewards-journey-btns button:hover{
+    background-color: #ffa556;
+}
+
+@media screen and (max-width: 768px) {
+    .rewards-journey{
+        padding: 0 1rem;
+    }
+    .rewards-journey h2{
+        font-size: calc(1.2rem + 1vw);
+        margin-top: 0.8rem;
+    }
+    .rewards-journey h3{
+        font-size: calc(0.9rem + 1vw);
+        font-weight: 400;
+    }
+    .spent-go-row{
+        margin-top: 1rem;
+    }
+    .spent-go-row p{
+       font-size: calc(0.85rem + 0.5vw);
+    }
+    .spent-go-row .spent{
+        width: 44%;
+        padding: 0.15rem 0 0.25rem 0.5rem;
+    }
+    .spent-go-row .go{
+        width: 56%;
+        padding: 0.15rem 0.5rem 0.25rem 0;
+    }
+    .rewards-journey h1{
+        font-size: calc(2rem + 1vw);
+        margin-top: 1.7rem;
+    }
+    .rewards-journey .coins{
+        margin-top: 1.5rem;
+    }
+    .rewards-journey .coins img{
+        width: 90%;
+    }
+    .rewards-journey-btns button{
+        width: 80vw;
+        margin-bottom: 1.3rem;
+        padding: 0.7rem 1.2rem;
+        font-weight: 620;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+}
+/* Rewards Journey End */
