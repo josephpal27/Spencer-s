@@ -612,3 +612,68 @@ form button{
     }
 }
 /*  Verify OTP Head End */
+
+
+/* ------- Shop & Earn Internal Pages Styles ------- */
+/*  FAQ Head Start */
+.faq-head{
+    text-align: center;
+}
+.faq-head h1{
+    margin: 0;
+    font-size: calc(1rem + 1vw);
+    margin-top: 0.5rem;
+    font-family: "Poppins", serif;
+}
+.faq-head h2{
+    margin: 0;
+    margin-top: 0.5rem;
+    font-size: calc(0.35rem + 1vw);
+    font-family: "DM Sans", serif;
+}
+.faq-head h3{
+    margin: 0;
+    margin-top: 1.5rem;
+    font-size: calc(0.5rem + 1vw);
+    font-family: "DM Sans", serif;
+    text-decoration: underline;
+    font-weight: 550;
+}
+/*  FAQ Head End */
+
+/* FAQ Body Start */
+.faq{
+    margin-top: 2rem;
+    width: 50%;
+    font-family: "Poppins", serif;
+}
+.faq .accordion-button {
+    background-color: #d4d4d4 !important;
+    color: inherit;
+    border: none;
+    box-shadow: none !important;
+}
+.faq .accordion-button:not(.collapsed) {
+    background-color: rgb(194, 194, 194) !important;
+}
+.faq .accordion-button:focus {
+    box-shadow: none !important;
+}
+.faq .accordion-header button {
+    font-weight: 550 !important;
+    font-size: calc(0.25rem + 1vw);
+    margin: 0;
+    padding: 1rem;
+    margin-bottom: 0.4rem;
+    border-radius: 10px !important;
+}
+.faq .accordion-body {
+    color: #5e5e5e;
+    font-size: calc(0.15rem + 1vw);
+    margin: 0;
+    padding: 0.7rem 1rem;
+    background-color: #f3f3f3 !important;
+    margin-bottom: 0.4rem;
+    border-radius: 10px !important;
+}
+/* FAQ Body End */
