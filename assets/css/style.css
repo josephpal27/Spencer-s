@@ -520,3 +520,94 @@ form button{
     }
 }
 /* Available Rewards End */
+
+
+/* ------- OTP Verification Page Styles ------- */
+/*  Verify OTP Head Start */
+.verify-otp-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.verify-otp-head .img-box{
+    background-color: #000;
+    padding: 1.2rem;
+    border-radius: 50%;
+}
+.verify-otp-head .img-box img{
+    width: 40px;
+}
+.verify-otp-head h1{
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: calc(1rem + 1vw);
+    margin-top: 1.2rem;
+}
+.otp-form form {
+    width: 30%;
+    padding: 1.7rem 1.5rem 2rem 1.5rem;
+    margin-top: 1.5rem !important;
+}
+.otp-form form .inp-field{
+    display: flex;
+    justify-content: space-between;
+}
+.otp-form form .inp-field input{
+    width: 22%;
+    font-size: calc(1.5rem + 0.5vw);
+    font-weight: 700;
+    padding: 0.5rem 0;
+    font-family: "Poppins", serif;
+    text-align: center;
+    border: 3px solid transparent;
+    transition: all 0.1s ease-in-out;
+}
+.otp-form form .inp-field input:focus{
+    border: 3px solid #fff;
+}
+.otp-form form .resend a{
+    font-family: "Poppins", serif;
+    display: block;
+    font-size: calc(0.4rem + 0.5vw);
+    margin-top: 0.4rem;
+    text-decoration: none;
+    color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+}
+.otp-form form .resend a i{
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 1400px) {
+    .otp-form form .inp-field input{
+        font-size: calc(1.7rem + 0.5vw);
+        padding: 0.8rem 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .otp-form{
+        padding: 0 1rem;
+    }
+    .verify-otp-head .img-box{
+        margin-top: 1rem;
+    }
+    .verify-otp-head h1{
+        font-size: calc(1.2rem + 1vw);
+    }
+    .otp-form form {
+        width: 100%;
+        padding: 1.5rem 1rem 1.5rem 1rem;
+    }
+    .otp-form form .inp-field input{
+        padding: 0.6rem 0;
+    }
+    .otp-form form .resend a{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-bottom: 0.3rem;
+        margin-top: 0.4rem;
+    }
+}
+/*  Verify OTP Head End */
