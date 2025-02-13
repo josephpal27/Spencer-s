@@ -52,7 +52,6 @@ box-sizing: border-box;
     font-family: "DM Sans", serif;
     font-size: calc(0.5rem + 0.5vw);
     color: #292929;
-    text-decoration: none;
     font-weight: 500;
     background-color: #feaf6a;
     color: #fff;
@@ -601,7 +600,7 @@ form button{
 .faq-head h2{
     margin: 0;
     margin-top: 0.5rem;
-    font-size: calc(0.35rem + 1vw);
+    font-size: calc(0.4rem + 1vw);
     font-family: "DM Sans", serif;
 }
 .faq-head h3{
@@ -612,11 +611,28 @@ form button{
     text-decoration: underline;
     font-weight: 550;
 }
+
+@media screen and (max-width: 768px){
+    .faq-head{
+        padding: 0 1rem;
+    }
+    .faq-head h1{
+        font-size: calc(1.3rem + 1vw);
+    }
+    .faq-head h2{
+        font-size: calc(0.7rem + 1vw);
+    }
+    .faq-head h3{
+        margin-top: 1.4rem;
+        font-size: calc(0.9rem + 1vw);
+    }
+}
 /*  FAQ Head End */
 
 /* FAQ Body Start */
 .faq{
     margin-top: 2rem;
+    margin-bottom: 3rem;
     width: 50%;
     font-family: "Poppins", serif;
 }
@@ -631,13 +647,14 @@ form button{
 }
 .faq .accordion-button:focus {
     box-shadow: none !important;
+    color: #fff;
 }
 .faq .accordion-header button {
     font-weight: 550 !important;
     font-size: calc(0.25rem + 1vw);
     margin: 0;
     padding: 1rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.7rem;
     border-radius: 10px !important;
 }
 .faq .accordion-body {
@@ -646,7 +663,105 @@ form button{
     margin: 0;
     padding: 0.7rem 1rem;
     background-color: #f3f3f3 !important;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.7rem;
     border-radius: 10px !important;
 }
+.faq .accordion-item {
+    border: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    .faq{
+        width: 100%;
+    }
+    .faq .accordion-header button {
+        font-size: calc(0.58rem + 1vw);
+        margin-bottom: 0.6rem;
+    }
+    .faq .accordion-body {
+        font-size: calc(0.55rem + 1vw);
+        padding: 0.7rem 1rem;
+        margin-bottom: 0.6rem;
+    }
+}
 /* FAQ Body End */
+
+
+/* ------- Shop & Earn Page Styles ------- */
+/* Shop and Earn Start */
+.shop-and-earn h1{
+    margin: 0;
+    font-size: calc(1.2rem + 1vw);
+    font-family: "Poppins", serif;
+    text-align: center;
+}
+.shop-and-earn-card-row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+.shop-and-earn-card{
+    display: flex;
+    width: 37%;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.shop-and-earn-card .card-icon{
+    background-color: #000;
+    width: 22%;
+    padding: 1.5rem;
+    border-radius: 30px;
+    scale: 1.2;
+}
+.shop-and-earn-card .card-icon img{
+    width: 100%;
+}
+.shop-and-earn-card .card-text{
+    background-color: #d4d4d4;
+    width: 78%;
+    display: flex;
+    align-items: center;
+    padding-left: 1.8rem;
+    margin-left: -0.7rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.shop-and-earn-card .card-text h3{
+    font-size: calc(0.3rem + 1vw);
+    font-family: "DM Sans", serif;
+}
+
+@media screen and (max-width: 768px){
+    .shop-and-earn{
+        padding: 0 1rem;
+    }
+    .shop-and-earn h1{
+        font-size: calc(1.4rem + 1vw);
+        margin-top: 0.5rem;
+    }
+    .shop-and-earn-card-row{
+        margin-top: 2.5rem;
+    }
+    .shop-and-earn-card{
+        width: 90%;
+        margin-left: 2%;
+        margin-bottom: 2rem;
+    }
+    .shop-and-earn-card .card-icon{
+        width: 23%;
+        padding: 1rem;
+        border-radius: 25px;
+    }
+    .shop-and-earn-card .card-text{
+        width: 77%;
+        padding-left: 1.6rem;
+        margin-left: -0.5rem;
+        padding-right: 0.3rem;
+    }
+    .shop-and-earn-card .card-text h3{
+        font-size: calc(0.8rem + 1vw);
+        font-weight: 550;
+    }
+}
+/* Shop and Earn End */
