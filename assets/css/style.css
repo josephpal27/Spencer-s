@@ -47,22 +47,33 @@ box-sizing: border-box;
     margin-top: 0.9rem;
 }
 .form a{
-    text-align: center;
-    display: block;
+    /* text-align: center;
+    display: block; */
     font-family: "DM Sans", serif;
     font-size: calc(0.5rem + 0.5vw);
     color: #292929;
     font-weight: 500;
-    background-color: #feaf6a;
-    color: #fff;
-    width: max-content;
-    margin: 0 auto;
+    /* background-color: #feaf6a; */
+    /* color: #fff; */
+    color: #484848;
+    /* width: max-content; */
+    /* margin: 0 auto; */
     padding: 0.1rem 0.5rem;
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
 }
-.form a:hover{
+/* .form a:hover{
     background-color: #ffa556;
+} */
+.form .switch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form .switch span{
+    font-family: "DM Sans", serif;
+    margin-right: 0.2rem;
+    font-size: calc(0.55rem + 0.5vw);
 }
 form{
     background-color: #000;
@@ -94,9 +105,9 @@ form input::placeholder{
 form input[type="number"]::-webkit-inner-spin-button{
     -webkit-appearance: none;
 }
-form input[type="date"]::-webkit-calendar-picker-indicator {
+/* form input[type="date"]::-webkit-calendar-picker-indicator {
     filter: invert(1);
-}
+} */
 form label{
     color: #d4d4d4;
     font-weight: 500;
@@ -133,6 +144,10 @@ form button:hover{
 }
 .form a{
     font-size: calc(0.75rem + 0.5vw);
+}
+.form .switch span{
+    margin-right: 0;
+    font-size: calc(0.8rem + 0.5vw);
 }
 form{
     margin-top: 1rem !important;
