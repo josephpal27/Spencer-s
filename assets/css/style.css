@@ -639,7 +639,7 @@ form button{
     }
     .faq-head h3{
         margin-top: 1.4rem;
-        font-size: calc(0.9rem + 1vw);
+        font-size: calc(1.1rem + 1vw);
     }
 }
 /*  FAQ Head End */
@@ -706,9 +706,16 @@ form button{
 /* Shop and Earn Start */
 .shop-and-earn h1{
     margin: 0;
-    font-size: calc(1.2rem + 1vw);
+    font-size: calc(1rem + 1vw);
     font-family: "Poppins", serif;
     text-align: center;
+}
+.shop-and-earn h2{
+    margin: 0;
+    font-size: calc(0.6rem + 1vw);
+    font-family: "Poppins", serif;
+    text-align: center;
+    margin-top: 0.5rem;
 }
 .shop-and-earn-card-row{
     display: flex;
@@ -752,7 +759,7 @@ form button{
         padding: 0 1rem;
     }
     .shop-and-earn h1{
-        font-size: calc(1.4rem + 1vw);
+        font-size: calc(1rem + 1vw);
         margin-top: 0.5rem;
     }
     .shop-and-earn-card-row{
